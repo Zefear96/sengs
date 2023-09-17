@@ -1,0 +1,57 @@
+.home {
+  position: relative;
+  height: 800px;
+  background-image: url('../media/bg\ home.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.header-message {
+  position: absolute;
+  margin-left: 15% ;
+  margin-top: 10%;
+  border-radius: 40px;
+  border: 1px #7b94f58d solid;
+  opacity: 0.9;
+  background: linear-gradient(to bottom right, #FFF 19%, rgba(255, 255, 255, 0.00) 50%) bottom right / 50% 50% no-repeat, 
+              linear-gradient(to bottom left, #FFF 19%, rgba(255, 255, 255, 0.00) 50%) bottom left / 50% 50% no-repeat, 
+              linear-gradient(to top left, #FFF 19%, rgba(255, 255, 255, 0.00) 50%) top left / 50% 50% no-repeat, 
+              linear-gradient(to top right, #FFF 19%, rgba(255, 255, 255, 0.00) 50%) top right / 50% 50% no-repeat;
+  backdrop-filter: blur(20px);
+  width: 800px;
+  height: 300px;
+  text-align: center;
+  
+    h1 {
+      color: #1c1cdd;
+      margin-top: 10%;
+    };
+
+    button {
+      margin: 20px;
+    }
+
+}
+
+.btn-header-blue {
+  border-radius: 40px;
+  background: #2047E8;
+  box-shadow: 0px -2px 0px 0px rgba(0, 32, 64, 0.10) inset, 0px 2px 0px 0px rgba(255, 255, 255, 0.25) inset, 0px 10px 10px 0px rgba(0, 32, 64, 0.10);
+  color: white;
+  width: 350px;
+  height: 80px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.btn-header-white {
+  border-radius: 40px;
+  // border: 1px solid var(--blue-blue-03, #002040);
+  box-shadow: 0px -2px 0px 0px rgba(0, 32, 64, 0.10) inset, 0px 2px 0px 0px rgba(255, 255, 255, 0.25) inset, 0px 10px 10px 0px rgba(0, 32, 64, 0.10);
+  color: var(--blue-blue-03, #002040);
+  width: 350px;
+  height: 80px;
+  font-size: 16px;
+  font-weight: 700;
+  background: rgba(255, 248, 248, 0.708);
+}
